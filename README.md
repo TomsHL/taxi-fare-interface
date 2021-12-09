@@ -60,21 +60,3 @@ python -m http.server 5000 --bind 127.0.0.1
  ```
 
  Then go to [http://localhost:5000](http://localhost:5000).
-
-## Deploy on GitHub Pages
-
-Your app is ready to go live!
-
-Create a new branch `gh-pages`:
-
-```bash
-git checkout -b gh-pages
-```
-
-Deploy your app on GitHub:
-
-```bash
-git push origin gh-pages
-```
-
-Your app will be visible shortly at `https://tomshl.github.io/taxi-fare-interface`.
